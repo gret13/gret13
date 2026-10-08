@@ -1,0 +1,23 @@
+from collections import Counter
+from xml.etree import ElementTree
+
+from scripts.generate_stats import render
+
+
+def test_render_includes_all_languages():
+    languages = Counter({"Python": 500, "C#": 300, "Go": 200})
+    document = render(10, 2, 3, languages)
+    root = ElementTree.fromstring(document)
+    assert root.tag.endswith("svg")
+    assert "Python" in document
+    assert "C#" in document
+    assert "Go" in document
+    assert "50.0%" in document
+    assert "30.0%" in document
+    assert "20.0%" in document
+
+
+def test_render_without_languages():
+    document = render(0, 0, 0, Counter())
+    ElementTree.fromstring(document)
+    assert "All Languages" in document
