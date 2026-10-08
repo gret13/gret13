@@ -1,0 +1,27 @@
+name: Generate GitHub Statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate SVG from GitHub API
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python scripts/generate_stats.py
+      - name: Publish SVG to stats branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: stats
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
