@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="365" viewBox="0 0 680 365">
+<rect x="1" y="1" width="678" height="363" rx="15" fill="#0d1117" stroke="#30363d"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<text x="30" y="43" font-size="23" font-weight="bold" fill="#E5B64A">GreT13 · GitHub Statistics</text>
+<text x="30" y="67" font-size="12" fill="#8b949e">Personal + eklimov-dev-ru · All time</text>
+<text x="30" y="99" font-size="12" fill="#8b949e">COMMITS</text>
+<text x="30" y="128" font-size="25" font-weight="bold" fill="#f0f6fc">75</text>
+<text x="248" y="99" font-size="12" fill="#8b949e">PULL REQUESTS</text>
+<text x="248" y="128" font-size="25" font-weight="bold" fill="#f0f6fc">3</text>
+<text x="466" y="99" font-size="12" fill="#8b949e">REPOSITORIES</text>
+<text x="466" y="128" font-size="25" font-weight="bold" fill="#f0f6fc">8</text>
+<text x="30" y="168" font-size="16" font-weight="bold" fill="#E5B64A">All Languages</text>
+<text x="30" y="194" font-size="13" fill="#c9d1d9">C#</text>
+<text x="637" y="194" text-anchor="end" font-size="13" fill="#c9d1d9">73.1%</text>
+<rect x="215" y="183" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="183" width="255.96" height="10" rx="5" fill="#E5B64A"/>
+<text x="30" y="224" font-size="13" fill="#c9d1d9">Python</text>
+<text x="637" y="224" text-anchor="end" font-size="13" fill="#c9d1d9">21.0%</text>
+<rect x="215" y="213" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="213" width="73.42" height="10" rx="5" fill="#58A6FF"/>
+<text x="30" y="254" font-size="13" fill="#c9d1d9">HTML</text>
+<text x="637" y="254" text-anchor="end" font-size="13" fill="#c9d1d9">4.1%</text>
+<rect x="215" y="243" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="243" width="14.38" height="10" rx="5" fill="#3FB950"/>
+<text x="30" y="284" font-size="13" fill="#c9d1d9">PowerShell</text>
+<text x="637" y="284" text-anchor="end" font-size="13" fill="#c9d1d9">1.2%</text>
+<rect x="215" y="273" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="273" width="4.26" height="10" rx="5" fill="#BC8CFF"/>
+<text x="30" y="314" font-size="13" fill="#c9d1d9">Batchfile</text>
+<text x="637" y="314" text-anchor="end" font-size="13" fill="#c9d1d9">0.5%</text>
+<rect x="215" y="303" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="303" width="1.67" height="10" rx="5" fill="#F78166"/>
+<text x="30" y="344" font-size="13" fill="#c9d1d9">Dockerfile</text>
+<text x="637" y="344" text-anchor="end" font-size="13" fill="#c9d1d9">0.1%</text>
+<rect x="215" y="333" width="350" height="10" rx="5" fill="#21262d"/>
+<rect x="215" y="333" width="0.31" height="10" rx="5" fill="#79C0FF"/>
+</svg>
